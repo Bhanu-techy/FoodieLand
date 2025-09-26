@@ -1,0 +1,32 @@
+ul{
+    list-style: none;
+}
+
+.category-list{
+    display: flex;
+}
+.category{
+    margin : 10px;
+    width: 120px;
+    height: 50px;
+}
+.heading{
+    font-family: robot;
+    text-align: left;
+
+}
+.container{
+    padding: 15px;
+    width: 100vw;
+}
+.dish-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+button{
+    border-radius: 5px;;
+}
+.head{
+    font-size: 20px;
+}

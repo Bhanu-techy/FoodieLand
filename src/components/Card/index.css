@@ -1,0 +1,26 @@
+.item-card{
+    width: 220px;
+    border: 2px solid #bfbfbf;
+    margin: 10px;
+    height: 250px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+   
+ 
+}
+.image{
+    border-radius: 10px;
+    width: 180px;
+    height: 120px;
+    margin-left: 15px;
+}
+.card-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+}
