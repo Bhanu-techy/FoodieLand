@@ -38,13 +38,13 @@ class Home extends Component{
     
 
      if(response.ok){
-        this.setState({details : updatedData, category : updatedData[0], info: data[0]})
+        this.setState({details : updatedData, category : updatedData[0], categorytwo : updatedData[0], info: data[0]})
      }
 
 }
 
     render(){
-        const {details, category, info} = this.state
+        const {details, category, info, categorytwo} = this.state
         const {categoryDishes = []} = category
        const {table_menu_list} = info
        console.log(table_menu_list)
@@ -66,11 +66,6 @@ class Home extends Component{
                     <Card data={each} key={each.id} />
                 ))}
             </ul>
-            <ul>
-
-               
-            </ul>
-
 
             </div>
         )

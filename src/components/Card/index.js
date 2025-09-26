@@ -7,11 +7,10 @@ const Card = props => {
       dishName,
 
       dishCalories,
-      dishDescription,
       dishCurrency,
       dishPrice,
       dishImage,
-      dishAvailability,
+      
     } = data
 
     return (
@@ -21,6 +20,7 @@ const Card = props => {
             <div className="card-div">
             <p>30 min  {dishCurrency} {dishPrice}</p>
             </div>
+            <p>calories {dishCalories}</p>
         </li>
 
     )
